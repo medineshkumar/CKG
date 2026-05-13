@@ -1,0 +1,12 @@
+{
+  "name": "Central Kungfu Guan",
+  "description": "Premium Kung Fu and Martial Arts Academy in Bangalore. Authentic training for kids, teens, and adults.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Contact Forms",
+    "Gallery",
+    "Trial Booking"
+  ]
+}
