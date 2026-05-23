@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="bg-brand-black">
       {/* Page Hero */}
-      <section className="relative flex items-center justify-center overflow-hidden px-6 py-20 md:py-24 lg:py-28 h-[55vh] md:h-[60vh] lg:h-[65vh]">
+      <section className="relative flex items-center justify-center overflow-hidden px-6 py-6 md:py-8 lg:py-10 h-[28vh] md:h-[32vh] lg:h-[36vh]">
         <img 
           src="https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2000&auto=format&fit=crop" 
           className="absolute inset-0 w-full h-full object-cover grayscale opacity-40"
@@ -13,15 +13,15 @@ export default function About() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-brand-black/60 to-transparent" />
         
-        <div className="relative z-10 text-center max-w-5xl">
+        <div className="relative z-10 text-center max-w-4xl">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold text-white tracking-tighter uppercase leading-none"
+            className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-extrabold text-white tracking-tight uppercase leading-tight"
           >
             THE SPIRIT OF <span className="text-brand-red text-stroke">GUAN</span>
           </motion.h1>
-          <p className="text-brand-gold font-heading text-base md:text-lg font-bold tracking-[0.5em] uppercase mt-6 opacity-80">Heritage • Discipline • Power</p>
+          <p className="text-brand-gold font-heading text-sm md:text-base font-semibold tracking-[0.35em] uppercase mt-4 opacity-80">Heritage • Discipline • Power</p>
         </div>
       </section>
 
