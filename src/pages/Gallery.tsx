@@ -24,20 +24,20 @@ export default function Gallery() {
     : galleryItems.filter(item => item.category === activeTab);
 
   return (
-    <div className="pt-24 bg-brand-black min-h-screen">
-      <section className="py-20 container mx-auto px-6">
-        <div className="text-center mb-20">
-          <h1 className="font-heading text-7xl md:text-9xl text-white tracking-tighter mb-6">MOMENTS OF <span className="text-brand-red italic">GUAN</span></h1>
-          <p className="text-brand-gold font-heading text-2xl tracking-[0.3em] uppercase">Visualizing Discipline & Strength</p>
+    <div className="bg-brand-black min-h-screen">
+      <section className="py-16 md:py-20 container mx-auto max-w-7xl px-6">
+        <div className="text-center mb-16 md:mb-20">
+          <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl text-white tracking-tighter mb-6">MOMENTS OF <span className="text-brand-red italic">GUAN</span></h1>
+          <p className="text-brand-gold font-heading text-base md:text-2xl tracking-[0.3em] uppercase">Visualizing Discipline & Strength</p>
         </div>
 
         {/* Filter Bar */}
-        <div className="flex flex-wrap justify-center gap-4 mb-16">
+        <div className="flex flex-wrap justify-center gap-4 mb-14 md:mb-16">
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setActiveTab(cat)}
-              className={`px-8 py-2 font-heading text-xl tracking-widest transition-all ${
+              className={`px-6 py-2 font-heading text-sm md:text-base tracking-widest transition-all ${
                 activeTab === cat 
                   ? 'bg-brand-red text-white' 
                   : 'bg-white/5 text-gray-500 hover:text-white'
@@ -66,7 +66,7 @@ export default function Gallery() {
               />
               <div className="absolute inset-0 bg-brand-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center space-y-4">
                 <Maximize2 size={32} className="text-brand-gold" />
-                <h4 className="font-heading text-3xl text-white tracking-widest text-center px-6">{item.title}</h4>
+                <h4 className="font-heading text-2xl md:text-3xl text-white tracking-widest text-center px-6">{item.title}</h4>
               </div>
             </motion.div>
           ))}

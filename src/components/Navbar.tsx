@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -34,7 +34,6 @@ export default function Navbar() {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-4 group">
           <div className="relative w-12 h-12 flex items-center justify-center">
-            {/* Minimalist "Guan" Gate Icon */}
             <div className="absolute inset-0 border-2 border-brand-red/30 rounded-lg group-hover:rotate-45 transition-transform duration-500"></div>
             <div className="relative flex flex-col items-center gap-1">
               <div className="w-6 h-1 bg-brand-red"></div>
@@ -55,7 +54,6 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Desktop Links */}
         <div className="hidden lg:flex items-center gap-10">
           {navLinks.map((link) => (
             <Link 
@@ -76,7 +74,6 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Mobile Toggle */}
         <button 
           className="lg:hidden text-brand-white hover:text-brand-red transition-colors"
           onClick={() => setIsOpen(!isOpen)}
@@ -85,7 +82,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div

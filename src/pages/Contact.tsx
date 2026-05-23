@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Instagram, Facebook, Youtube, Send } from 'lucide-
 
 export default function Contact() {
   return (
-    <div className="pt-24 bg-brand-black min-h-screen">
+    <div className="bg-brand-black min-h-screen">
       <section className="py-20 container mx-auto px-6">
         <div className="text-center mb-20">
           <h1 className="font-heading text-7xl md:text-9xl text-white tracking-tighter mb-6 underline decoration-brand-red decoration-8">CONTACT US</h1>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex items-center overflow-hidden bg-brand-black">
+    <section className="relative min-h-[calc(100vh-96px)] flex items-center overflow-hidden bg-brand-black">
       {/* Background with watermark text */}
       <div className="bg-watermark">
         <div className="bg-watermark-text">Spirit</div>
@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/40 to-transparent" />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10 grid grid-cols-12 gap-8 items-center pt-32 lg:pt-0">
+      <div className="container mx-auto px-6 relative z-10 grid grid-cols-12 gap-8 items-center">
         <div className="col-span-12 lg:col-span-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -32,26 +32,26 @@ export default function Hero() {
               <span className="text-brand-gold uppercase tracking-[0.4em] text-[10px] font-bold">Bangalore's Premier Academy</span>
             </div>
 
-            <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl xl:text-9xl leading-[1.1] tracking-tight mb-8 text-white uppercase font-extrabold">
+            <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl xl:text-8xl leading-[1.1] tracking-tight mb-8 text-white uppercase font-extrabold">
               MASTER <span className="text-brand-red">DISCIPLINE.</span><br />
               <span className="text-stroke text-white/5">EXCEED</span> <span className="text-brand-gold">LIMITS.</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-white/60 max-w-lg mb-12 leading-relaxed font-medium">
+            <p className="text-base md:text-lg text-white/60 max-w-lg mb-12 leading-relaxed font-medium">
               Bangalore's premier destination for traditional Kung Fu and strategic self-defense. Forge your body, mind, and spirit into a singular weapon of discipline.
             </p>
 
             <div className="flex flex-wrap items-center gap-6">
               <Link 
                 to="/trial" 
-                className="px-10 py-5 bg-white text-black font-black uppercase text-sm tracking-widest hover:bg-brand-red hover:text-white transition-all shadow-[0_0_40px_rgba(255,255,255,0.1)]"
+                className="px-8 py-4 bg-white text-black font-black uppercase text-xs tracking-widest hover:bg-brand-red hover:text-white transition-all shadow-[0_0_40px_rgba(255,255,255,0.1)]"
               >
                 Start Training
               </Link>
               
               <Link 
                 to="/programs" 
-                className="px-10 py-5 border border-white/20 hover:border-white text-white font-black uppercase text-sm tracking-widest transition-all"
+                className="px-8 py-4 border border-white/20 hover:border-white text-white font-black uppercase text-xs tracking-widest transition-all"
               >
                 Our Programs
               </Link>
