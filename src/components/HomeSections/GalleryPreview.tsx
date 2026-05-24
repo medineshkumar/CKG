@@ -16,7 +16,7 @@ export default function GalleryPreview() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <div>
-            <h2 className="font-heading text-6xl md:text-8xl text-white tracking-tighter">MOMENTS OF STRENGTH</h2>
+            <h2 className="font-heading text-6xl md:text-7xl text-white tracking-tighter">MOMENTS OF STRENGTH</h2>
             <p className="text-brand-gold font-heading text-2xl tracking-widest uppercase">Discipline Captured In Motion</p>
           </div>
           <Link 

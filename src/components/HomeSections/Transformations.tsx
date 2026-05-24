@@ -3,7 +3,7 @@ import { Quote } from 'lucide-react';
 
 const stories = [
   {
-    name: 'Arjun K.',
+    name: 'Dinesh Kumar R.',
     role: 'IT Professional',
     before: 'Low confidence and poor physical fitness due to sedentary lifestyle.',
     after: 'Improved discipline, lost 15kg, and gained mental clarity for better work performance.',
@@ -30,7 +30,7 @@ export default function Transformations() {
     <section className="py-32 bg-brand-black">
       <div className="container mx-auto px-6">
         <div className="mb-20 text-center">
-          <h2 className="font-heading text-6xl md:text-7xl text-white mb-6">REAL TRANSFORMATIONS</h2>
+          <h2 className="font-heading text-6xl md:text-6xl text-white mb-6">REAL TRANSFORMATIONS</h2>
           <div className="w-24 h-1 bg-brand-red mx-auto"></div>
         </div>
 

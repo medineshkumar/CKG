@@ -73,7 +73,7 @@ export default function About() {
               className="glass p-10 md:p-12 rounded-3xl border-brand-gold/20"
             >
               <Eye className="text-brand-gold mb-8" size={64} />
-              <h3 className="font-heading text-4xl md:text-5xl text-white mb-6">OUR VISION</h3>
+              <h3 className="font-heading text-3xl md:text-4xl text-white mb-6">OUR VISION</h3>
               <p className="text-gray-400 text-base md:text-lg leading-relaxed">
                 To become Bangalore's most respected martial arts academy, recognized for transforming lives through the authentic teaching of Kung Fu traditions, fostering a community of disciplined, capable, and respectful individuals.
               </p>
@@ -84,7 +84,7 @@ export default function About() {
 
       {/* Values */}
       <section className="py-20 container mx-auto max-w-7xl px-6">
-        <h2 className="font-heading text-5xl md:text-6xl lg:text-7xl text-white mb-16 text-center tracking-tighter italic">CORE PILLARS OF THE GUAN</h2>
+        <h2 className="font-heading text-5xl md:text-6xl lg:text-6xl text-white mb-16 text-center tracking-tighter">CORE PILLARS OF THE GUAN</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             { title: 'RESPECT', icon: Shield, color: 'text-brand-red' },

@@ -3,18 +3,18 @@ import { Award, Zap, Shield, Star, Instagram, Twitter } from 'lucide-react';
 
 const trainers = [
   {
-    name: 'MASTER D. LIAO',
+    name: 'SIFU LAI YIN FU',
     role: 'Head Instructor',
     exp: '25+ Years Experience',
-    special: 'Traditional Shaolin Kung Fu & Weaponry',
+    special: 'Traditional Kung Fu & Weaponry',
     bio: 'Dedicated to preserving the ancient arts while adapting them for modern defense.',
     img: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800&auto=format&fit=crop'
   },
   {
-    name: 'SENSEI ARJUN',
+    name: 'Sihing LAI YUEN MO',
     role: 'Senior Trainer',
-    exp: '12+ Years Experience',
-    special: 'Mixed Martial Arts & Conditioning',
+    exp: '10+ Years Experience',
+    special: 'Traditional Kung Fu',
     bio: 'Focused on high-intensity drills and peak physical performance for competitive fighters.',
     img: 'https://images.unsplash.com/photo-1548690312-e3b507d17a4?q=80&w=800&auto=format&fit=crop'
   },
@@ -27,7 +27,7 @@ const trainers = [
     img: 'https://images.unsplash.com/photo-1517438476312-10d79c67750d?q=80&w=800&auto=format&fit=crop'
   },
   {
-    name: 'SIFU VIKRAM',
+    name: 'COACH VIKRAM',
     role: 'Technique Lead',
     exp: '15+ Years Experience',
     special: 'Bagua & Tai Chi Internal Arts',
@@ -101,7 +101,7 @@ export default function Trainers() {
         <div className="container mx-auto max-w-6xl px-6 text-center italic">
           <Star className="text-brand-gold mx-auto mb-8" size={48} />
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl text-white tracking-widest mx-auto leading-normal">
-            "A SENSEI IS NOT JUST A TEACHER, BUT A BEACON ON THE PATH TO SELF-MASTERY."
+            "A SIFU IS NOT JUST A TEACHER, BUT A BEACON ON THE PATH TO SELF-MASTERY."
           </h2>
         </div>
       </section>

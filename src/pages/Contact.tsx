@@ -126,7 +126,7 @@ export default function Contact() {
                 <MapPin size={40} />
             </div>
             <h2 className="font-heading text-4xl text-white italic tracking-widest">FIND US IN THE HEART OF BANGALORE</h2>
-            <p className="text-gray-400 mt-2 uppercase tracking-widest">Brigade Road Area • Open Daily</p>
+            <p className="text-gray-400 mt-2 uppercase tracking-widest">• Open Daily</p>
         </div>
       </section>
     </div>

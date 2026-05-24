@@ -105,7 +105,7 @@ export default function Programs() {
       <section className="bg-brand-gold py-12">
         <div className="container mx-auto max-w-7xl px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-brand-black">
           <h3 className="font-heading text-3xl md:text-4xl tracking-widest underline decoration-brand-red decoration-4">NOT SURE WHERE TO START?</h3>
-          <Link to="/contact" className="px-8 md:px-12 py-4 border-2 border-brand-black font-heading text-base md:text-2xl tracking-widest hover:bg-brand-black hover:text-brand-gold transition-all">TALK TO A SENSEI</Link>
+          <Link to="/contact" className="px-8 md:px-12 py-4 border-2 border-brand-black font-heading text-base md:text-2xl tracking-widest hover:bg-brand-black hover:text-brand-gold transition-all">TALK TO A SIFU</Link>
         </div>
       </section>
     </div>

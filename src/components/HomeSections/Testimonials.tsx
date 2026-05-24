@@ -32,8 +32,8 @@ export default function Testimonials() {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-20">
-          <h2 className="font-heading text-6xl md:text-8xl text-white mb-6">WHAT OUR STUDENTS SAY</h2>
-          <p className="text-brand-gold font-heading text-2xl tracking-widest uppercase">Direct From The Dojo</p>
+          <h2 className="font-heading text-6xl md:text-7xl text-white mb-6">WHAT OUR STUDENTS SAY</h2>
+          <p className="text-brand-gold font-heading text-2xl tracking-widest uppercase">Direct From The GUAN</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

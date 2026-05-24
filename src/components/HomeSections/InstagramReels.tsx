@@ -18,7 +18,7 @@ export default function InstagramReels() {
               <Instagram className="text-brand-red" size={24} />
               <span className="text-brand-gold font-heading text-xl tracking-widest uppercase">@CentralKungfuGuan</span>
             </div>
-            <h2 className="font-heading text-6xl md:text-8xl text-white tracking-tighter">TRAIN. SWEAT. TRANSFORM.</h2>
+            <h2 className="font-heading text-5xl md:text-7xl text-white tracking-tighter">TRAIN. SWEAT. TRANSFORM.</h2>
           </div>
           <a 
             href="#" 

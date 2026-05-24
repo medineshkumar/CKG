@@ -14,7 +14,7 @@ export default function WhatsAppButton() {
       </motion.div>
 
       <motion.a 
-        href="https://wa.me/919876543210?text=I'm%20interested%20in%20joining%20Central%20Kungfu%20Guan.%20I'd%20like%20to%20know%20more%20about%20your%20programs."
+        href="https://wa.me/917795012123?text=I'm%20interested%20in%20joining%20Central%20Kungfu%20Guan.%20I'd%20like%20to%20know%20more%20about%20your%20programs."
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}

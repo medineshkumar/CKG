@@ -22,11 +22,11 @@ export default function RegistrationCTA() {
             <div className="flex flex-wrap justify-center lg:justify-start gap-8 text-white/90">
               <div className="flex items-center gap-3">
                 <Phone size={20} className="text-brand-black" />
-                <span className="font-heading tracking-widest text-lg">+91 98765 43210</span>
+                <span className="font-heading tracking-widest text-lg">+91 77950 12123</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={20} className="text-brand-black" />
-                <span className="font-heading tracking-widest text-lg">train@centralkungfu.in</span>
+                <span className="font-heading tracking-widest text-lg">info.centralkungfuguan@gmail.com</span>
               </div>
             </div>
           </div>
@@ -34,14 +34,14 @@ export default function RegistrationCTA() {
           <div className="flex flex-col sm:flex-row gap-6 w-full lg:w-auto">
             <Link 
               to="/trial" 
-              className="px-12 py-6 bg-brand-black text-white font-heading text-3xl tracking-[0.2em] hover:bg-brand-gold hover:text-brand-black transition-all text-center flex items-center justify-center gap-4 group"
+              className="px-12 py-6 bg-brand-black text-white font-heading text-2xl tracking-[0.2em] hover:bg-brand-gold hover:text-brand-black transition-all text-center flex items-center justify-center gap-4 group"
             >
               <CalendarCheck className="group-hover:rotate-12 transition-transform" />
               BOOK FREE TRIAL
             </Link>
             <Link 
               to="/contact" 
-              className="px-12 py-6 border-2 border-brand-black text-brand-black font-heading text-3xl tracking-[0.2em] hover:bg-brand-black hover:text-white transition-all text-center"
+              className="px-12 py-6 border-2 border-brand-black text-brand-black font-heading text-2xl tracking-[0.2em] hover:bg-brand-black hover:text-white transition-all text-center"
             >
               CONTACT US
             </Link>

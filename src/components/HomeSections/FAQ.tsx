@@ -33,7 +33,7 @@ export default function FAQ() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row gap-20">
           <div className="lg:w-1/3">
-            <h2 className="font-heading text-6xl md:text-7xl text-white mb-6">COMMON QUESTIONS</h2>
+            <h2 className="font-heading text-6xl md:text-6xl text-white mb-6">COMMON QUESTIONS</h2>
             <p className="text-brand-gold font-heading text-2xl tracking-widest uppercase mb-10">Everything You Need To Know</p>
             <div className="glass p-8 rounded-2xl border-brand-red/20 inline-flex items-center gap-4">
               <div className="w-12 h-12 bg-brand-red/20 rounded-full flex items-center justify-center text-brand-red">
