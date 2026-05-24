@@ -21,7 +21,7 @@ export default function Trial() {
               animate={{ opacity: 1, x: 0 }}
             >
               <span className="text-brand-red font-bold tracking-[0.4em] uppercase text-sm italic mb-4 block">Take The First Step</span>
-              <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white tracking-tighter leading-none mb-8">
+              <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl xl:text-6xl text-white tracking-tighter leading-none mb-8">
                 BOOK YOUR <br />
                 <span className="text-brand-gold italic">FREE TRIAL</span>
               </h1>
@@ -65,7 +65,7 @@ export default function Trial() {
                     initial={{ opacity: 1 }}
                     exit={{ opacity: 0, y: -20 }}
                   >
-                    <h3 className="font-heading text-3xl md:text-4xl lg:text-5xl text-white mb-10 tracking-widest underline decoration-brand-red decoration-4 underline-offset-8">RESERVE YOUR MAT SPACE</h3>
+                    <h3 className="font-heading text-3xl md:text-4xl lg:text-4xl text-white mb-10 tracking-widest underline decoration-brand-red decoration-4 underline-offset-8">RESERVE YOUR MAT SPACE</h3>
                     <form onSubmit={handleSubmit} className="space-y-6">
                       <div className="space-y-2">
                         <label className="text-xs font-bold uppercase tracking-widest text-gray-400">Full Name</label>
@@ -98,7 +98,7 @@ export default function Trial() {
                         <input required type="date" className="w-full bg-white/5 border border-white/10 px-6 py-4 rounded-xl text-white outline-none focus:border-brand-red transition-all" />
                       </div>
 
-                      <button type="submit" className="w-full px-10 md:px-12 py-4 md:py-5 bg-brand-red text-white font-heading text-base md:text-2xl tracking-widest hover:bg-brand-gold hover:text-brand-black transition-all flex items-center justify-center gap-3 group mt-8">
+                      <button type="submit" className="w-full px-10 md:px-10 py-4 md:py-5 bg-brand-red text-white font-heading text-base md:text-2xl tracking-widest hover:bg-brand-gold hover:text-brand-black transition-all flex items-center justify-center gap-3 group mt-8">
                         CONFIRM TRIAL BOOKING <ChevronRight className="group-hover:translate-x-2 transition-transform" />
                       </button>
                     </form>
@@ -119,7 +119,7 @@ export default function Trial() {
                     </div>
                     <h3 className="font-heading text-3xl md:text-4xl text-white tracking-widest uppercase italic">RESERVATION RECEIVED!</h3>
                     <p className="text-gray-400 text-base md:text-lg leading-relaxed max-w-sm mx-auto">
-                      Our Sensei will call you shortly to confirm your slot and provide directions to the academy.
+                      Our Sifu will call you shortly to confirm your slot and provide directions to the academy.
                     </p>
                     <button 
                       onClick={() => setSubmitted(false)}
