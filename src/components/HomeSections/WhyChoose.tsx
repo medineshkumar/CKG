@@ -24,7 +24,7 @@ export default function WhyChoose() {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-20">
-          <h2 className="font-heading text-6xl md:text-8xl font-extrabold text-white mb-6 tracking-tight italic">WHY STUDENTS CHOOSE US</h2>
+          <h2 className="font-heading text-6xl md:text-7xl font-extrabold text-white mb-6 tracking-tight">WHY STUDENTS <span className="text-brand-red decoration-brand-gold decoration-4">CHOOSE US</span></h2>
           <p className="text-xl text-gray-500 tracking-[0.2em] font-bold uppercase">The Professional Standard In Bangalore</p>
         </div>
 

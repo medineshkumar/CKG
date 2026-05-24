@@ -29,7 +29,7 @@ export default function Hero() {
           >
             <div className="flex items-center gap-4 mb-8">
               <div className="w-12 h-[1px] bg-brand-gold"></div>
-              <span className="text-brand-gold uppercase tracking-[0.4em] text-[10px] font-bold">Bangalore's Premier Academy</span>
+              <span className="text-brand-gold uppercase tracking-[0.4em] text-[10px] font-bold">Traditional Kungfu Academy</span>
             </div>
 
             <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl xl:text-8xl leading-[1.1] tracking-tight mb-8 text-white uppercase font-extrabold">
@@ -38,7 +38,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-base md:text-lg text-white/60 max-w-lg mb-12 leading-relaxed font-medium">
-              Bangalore's premier destination for traditional Kung Fu and strategic self-defense. Forge your body, mind, and spirit into a singular weapon of discipline.
+              One stop premier destination for traditional Kung Fu and strategic self-defense. Forge your body, mind, and spirit into a singular weapon of discipline.
             </p>
 
             <div className="flex flex-wrap items-center gap-6">

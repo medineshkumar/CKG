@@ -46,7 +46,7 @@ export default function Programs() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <div className="max-w-2xl">
-            <h2 className="font-heading text-6xl md:text-8xl font-extrabold text-white mb-6 tracking-tighter italic">
+            <h2 className="font-heading text-6xl md:text-7xl font-extrabold text-white mb-6 tracking-tighter">
               PROGRAMS FOR <br />
               <span className="text-brand-red underline decoration-brand-gold decoration-4 underline-offset-8">THE MODERN WARRIOR</span>
             </h2>

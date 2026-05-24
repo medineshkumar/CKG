@@ -33,25 +33,31 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-4 group">
-          <div className="relative w-12 h-12 flex items-center justify-center">
-            <div className="absolute inset-0 border-2 border-brand-red/30 rounded-lg group-hover:rotate-45 transition-transform duration-500"></div>
-            <div className="relative flex flex-col items-center gap-1">
-              <div className="w-6 h-1 bg-brand-red"></div>
-              <div className="flex gap-2">
-                <div className="w-1 h-3 bg-brand-gold"></div>
-                <div className="w-1 h-3 bg-brand-gold"></div>
-              </div>
-              <div className="w-6 h-0.5 bg-brand-red/50"></div>
-            </div>
-          </div>
-          <div className="flex flex-col">
-            <span className="font-heading text-3xl font-extrabold tracking-tight leading-[0.9] text-brand-white">
+          <motion.img 
+            src="/src/assets/logo.png"
+            alt="Central Kungfu Guan Logo"
+            initial={{ opacity: 0, scale: 0.5, rotate: -45 }}
+            animate={{ opacity: 1, scale: 1, rotate: 0 }}
+            transition={{ type: 'spring', stiffness: 100, damping: 15 }}
+            whileHover={{ rotate: 12, scale: 1.1 }}
+            className="w-14 h-14 object-contain -translate-y-2"
+          />
+          <motion.div 
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.2 }}
+            className="flex flex-col"
+          >
+            <span className="font-heading text-3xl font-extrabold tracking-tight leading-[0.9] text-brand-red">
+              CENTRAL KUNGFU GUAN
+            </span>
+            {/* <span className="font-heading text-3xl font-extrabold tracking-tight leading-[0.9] text-brand-white">
               CENTRAL <span className="text-brand-red">KUNGFU</span>
-            </span>
+            </span> */}
             <span className="font-mono text-[10px] text-brand-gold font-bold tracking-[0.3em] uppercase opacity-80">
-              GUAN • BANGALORE
+              BANGALORE,INDIA
             </span>
-          </div>
+          </motion.div>
         </Link>
 
         <div className="hidden lg:flex items-center gap-10">
