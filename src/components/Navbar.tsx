@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -34,7 +35,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-4 group">
           <motion.img 
-            src="/src/assets/logo.png"
+            src={logo}
             alt="Central Kungfu Guan Logo"
             initial={{ opacity: 0, scale: 0.5, rotate: -45 }}
             animate={{ opacity: 1, scale: 1, rotate: 0 }}
